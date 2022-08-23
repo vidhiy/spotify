@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&family=Varela+Round&display=swap');
+
+body{
+    background-color: antiquewhite;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    font-family: 'Ubantu','sans-serif';
+}
+nav ul{
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    height: 55px;
+    background-color: black;
+    color: white;
+}
+nav ul li{
+    padding: 0 12px;
+}
+
+.brand img{
+    width: 44px;
+}
+.brand{
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 1.3rem;
+}
+.container{ 
+    min-height: 60vh;
+    background-color: black;
+    color: white;
+    font-family: 'Varela Round','sans-serif';
+    display: flex;
+    flex-direction: row;
+    margin: 23px auto;
+    width: 70%;
+    border-radius: 12px;
+    padding: 34px;
+    background-image: url(img.png);
+    
+}
+
+.bottom{
+    position: sticky;
+    height: 50px;
+    background-color: black;
+    color: white;
+    padding: 15px;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;   
+}
+.songInfo{
+    position: absolute;
+    left: 30vw;
+    font-family: 'Varela Round','sans-serif';
+    
+}
+.songInfo img{
+    opacity: 0;
+    transition: opacity 0.3s ease-in;
+}
+.icons{
+    margin: 14px;
+}
+.icons i{
+    cursor: pointer;
+}
+#myProgressBar{
+    width: 100vh;
+    cursor: pointer;
+}
+.songItemContainer{
+ margin-top: 24px;   
+}
+
+
+.songItem{
+    height: 40px;
+    display: flex;
+    flex-direction: row;
+    border-radius: 10px;
+    background-color: white;
+    color: black;
+    width: 70%;
+    margin:10px 0;
+    padding: 4px;
+    justify-content: space-between;
+    align-items: center;
+    }
+.songItem img{
+    width: 43px;  
+    margin: 0 18px;
+    border-radius: 34px; 
+}
+.timestamp{
+    margin: 0 23px;
+}
+.timestamp i{
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
